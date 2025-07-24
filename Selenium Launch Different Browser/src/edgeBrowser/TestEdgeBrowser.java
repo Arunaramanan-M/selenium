@@ -11,9 +11,6 @@ public class TestEdgeBrowser {
 		WebDriver driver_3 =new FirefoxDriver();
 		WebDriver driver_4 =new FirefoxDriver();
 		WebDriver driver_5 =new FirefoxDriver();
-		//WebDriver driver_1 =new EdgeDriver();
-		//System.setProperty("webdriver.edgedriver.driver1", "C:\\Users\\ASWINRAGHAV\\spring_workspace\\demo\\drivers\\msedgedriver.exe")
-				//driver_1.manage().window().maximize();
 		driver_1.get("https://www.hollandandbarrett.com");
 		
 		driver_2.get("https://opensource-demo.orangehrmlive.com");
